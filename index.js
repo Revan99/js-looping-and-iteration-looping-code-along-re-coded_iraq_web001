@@ -9,6 +9,7 @@ console.log(countDown(-10));
 
 function writeCards(name){
   for(let a = 0; a < name.lenth; a++){
-    console.log('thank you ${name[a]}');
+    names[a] = ('thank you'+ name[a]);
   }  
+  return names;
 }
