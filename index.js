@@ -7,7 +7,7 @@ function countDown(num){
 }
 console.log(countDown(-10));
 
-function writeCards(name){
+function writeCards(name, name2){
   let names;
   for(let a = 0; a < name.lenth; a++){
     names[a] = ('thank you'+ name[a]);
